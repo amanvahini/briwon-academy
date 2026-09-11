@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    color: #0F172A;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.bg-briwon-gradient {
+  background: linear-gradient(135deg, #163267 0%, #1E40AF 60%, #0284C7 100%);
+}
+
+.text-briwon-gradient {
+  background: linear-gradient(135deg, #163267 0%, #1E40AF 50%, #0284C7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wave-badge-gradient {
+  background: linear-gradient(135deg, #1E40AF 0%, #0284C7 50%, #38BDF8 100%);
+}
