@@ -236,7 +236,7 @@ import React, { useState, useEffect } from 'react';
 
                 {/* Primary H1 */}
                 <h1 className="font-heading text-4xl sm:text-5xl lg:text-[56px] font-extrabold text-slate-900 leading-[1.12] tracking-tight">
-                  MASTER AI & DIGITAL MARKETING. <br />
+                  LEARN AI & DIGITAL MARKETING. <br />
                   <span className="text-briwon-deep">BUILD SKILLS THAT MOVE YOUR CAREER FORWARD.</span>
                 </h1>
 
